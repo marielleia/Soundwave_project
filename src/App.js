@@ -1,22 +1,45 @@
 import './App.css';
 import Menu from "./components/Menu";
-import ImageHero from "./components/ImageHero.js";
-import HomepageText from "./components/HomepageText.js";
+import Portada from "./components/Portada";
 import Footer from "./components/Footer";
+import './components/Menu.css';
+import './components/Portada';
+import './components/ImageHero.css';
+import './components/Footer.css';
 
 function App() {
   return (
     <>
-    <section className="App">
-        <header className="App-header">
+    <body>
+      <main className='App'>
+
+        <header>
+
             <Menu/>
-            <ImageHero/>
-            <HomepageText/>
+
         </header>
-    </section>
-    <footer>
-        <Footer/>
-    </footer>
+
+        <section className='Portada'>
+      
+            <Portada/>
+
+        </section>
+
+        <section className='Discover'>
+
+        </section>
+
+        <section className='Join'>
+
+        </section>
+
+        <footer>
+
+            <Footer/>
+            
+        </footer>
+      </main>
+    </body>
     </>
   );
 }

@@ -1,5 +1,6 @@
-function MenuButton({ buttonText }) {
-    return <button className="menu-button">{buttonText}</button>;
-}
+import React from "react";
 
+function MenuButton({ buttonText }) {
+    return <button className="menu-buttons">{buttonText}</button>
+}
   export default MenuButton;
