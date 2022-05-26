@@ -1,0 +1,19 @@
+.discover {
+display: flex;
+flex-direction: row;
+margin: 15vh;
+}
+
+.text-discover{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    margin: 2vh;
+    background-color: #202027;
+    gap: 1vh;
+}

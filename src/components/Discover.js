@@ -10,9 +10,19 @@ function Discover() {
               <div className="text-discover">
                 <h1>Discover new music</h1>
                 <div className="icons">
+
+                    <div>
                     <img src={Microphone} className= "microfono" alt="microfono"/>
+                    <span><h6>Charts</h6></span>
+                    </div>
+                    <div>
                     <img src={Albums} className= "albums" alt="albums"/>
+                    <span><h6>Albums</h6></span>
+                    </div>
+                    <div>
                     <img src={More} className= "more" alt="more"/>
+                    <span><h6>More</h6></span>
+                    </div>
                 </div>
                 <h6>By joining you can benefit by listening to the latest albums released.</h6>
               </div>

@@ -2,12 +2,13 @@
     display: flex;
     justify-content: flex-start;
     background-color: crimson;
-    width: 60%;
-    height: 10%;
+    width: 50%;
+    height: 20%;
 }
 
 .social-media {
     background-color: blueviolet;
+    width: 50%;
     display: flex;
 
 }

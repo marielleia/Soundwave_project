@@ -1,10 +1,8 @@
 .imageHero, .homeText{
     display: flex;
+    margin-top: 10vh;
 }
 
-.imageHero {
-    height: 50%;
-}
 
 /*------------CIRCLES-----------*/
 .circle1, .circle2, .circle3 {

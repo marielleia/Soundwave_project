@@ -1,0 +1,19 @@
+.join{
+    display: flex;
+    flex-direction: row;
+}
+.fun {
+    color: rgba(245, 21, 116, 0.4);
+}
+
+.text, .formulario {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5vh;
+}
+
+h1 {
+    font-size: xx-large;
+}

@@ -8,8 +8,11 @@ import './App.css';
 import './components/Menu.css';
 import './components/Portada.css';
 import './components/ImageHero.css';
-import './components/Footer.css';
 import './components/HomepageText.css';
+import './components/Discover.css';
+import './components/Join.css';
+import './components/Footer.css';
+import "@fontsource/poppins";
 
 function App() {
   return (
