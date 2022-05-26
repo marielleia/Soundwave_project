@@ -1,4 +1,5 @@
 import React from "react";
+import "./Menu.css"
 import MenuButton from "./MenuButton";
 import Logo from "../images/logo.png";
 
@@ -9,9 +10,10 @@ function Menu() {
                 <img className= "logo" src={Logo}/>
                 <h4>Soundwave</h4>
             </div>
-            <div className="menu-buttons">
-            <MenuButton buttonText={"Discover"}/>
-            <MenuButton buttonText={"Join"}/>
+
+            <div className="nav-buttons">
+                <MenuButton buttonText={"Discover"}/>
+                <MenuButton buttonText={"Join"}/>
             </div>
         </nav>
   );

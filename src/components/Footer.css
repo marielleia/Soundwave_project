@@ -1,4 +1,23 @@
-footer{
+.contacto {
     display: flex;
-    flex-direction: column;
+    justify-content: flex-start;
+    background-color: crimson;
+    width: 60%;
+    height: 10%;
+}
+
+.social-media {
+    background-color: blueviolet;
+    display: flex;
+
+}
+
+.footer-button{
+    display: flex;
+    flex-direction: row;
+    border-style: none;
+    background-color: transparent;
+    color: aliceblue;
+    font-size: medium;
+    text-decoration: solid;
 }

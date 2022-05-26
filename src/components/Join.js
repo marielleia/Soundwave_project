@@ -5,9 +5,10 @@ function Join() {
           <section className="join">
               <div className="text">
                 <h1 className="jointhe">Join the </h1>
+                <h1 className="fun">fun.</h1>
               </div>
               <div>
-              <form>form</form>
+              <form>aqui va el fooooorm</form>
               </div>
           </section>
     );

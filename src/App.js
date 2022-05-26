@@ -6,9 +6,10 @@ import Discover from "./components/Discover";
 import Join from "./components/Join";
 import './App.css';
 import './components/Menu.css';
-import './components/Portada';
+import './components/Portada.css';
 import './components/ImageHero.css';
 import './components/Footer.css';
+import './components/HomepageText.css';
 
 function App() {
   return (

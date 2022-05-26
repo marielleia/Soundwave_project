@@ -1,15 +1,18 @@
 .imageHero, .homeText{
-    display: grid;
-    grid-template-rows: 50vh;
-    grid-template-columns: repeat(auto-fit, 50vh);
-    justify-content: center;
-    align-items: center;
+    display: flex;
+}
+
+.imageHero {
+    height: 50%;
 }
 
 /*------------CIRCLES-----------*/
 .circle1, .circle2, .circle3 {
-    height: 300px;
-    width: 300px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
-    position: relative;
+    color: chartreuse;
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
 }

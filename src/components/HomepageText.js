@@ -1,4 +1,6 @@
 import React from 'react';
+import "./HomepageText.css";
+
 function HomepageText() {
     return (
       <div className='HomepageText'>
