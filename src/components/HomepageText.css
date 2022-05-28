@@ -1,6 +1,6 @@
 .button-join{
     padding: 2vh;
-    border-radius: 2vh;
+    border-radius: 1vh none;
     background-color: #1762A7;
     color: whitesmoke;
 }

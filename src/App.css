@@ -1,12 +1,10 @@
 * { 
 margin: 0;
 padding: 0; 
-box-sizing: auto;
 scroll-behavior: smooth;
 }
 
 main {
-  height: 100%;
   font-family: "Poppins";
   background-color: #2F303A;
   display: flex;
@@ -18,23 +16,14 @@ main {
 
 /*------------NAV---------*/
 nav {
-  height: 20%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  position: sticky;
-  left: 0;
-  top: 0;
-  width: 100%;
   background-color: #202027;
-  z-index: 999;
+  width: 100%;
+  position: fixed;
 }
 
 /*---------------MAIN---------*/
 
 .Portada {
-  height: 80%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -45,23 +34,26 @@ nav {
 
 .Discover {
   height: 100%;
-
+  width: auto;
 }
 
 /*------------JOIN------------*/
 
 .Join {
-height: 100%;
-width: auto;
+  height: 100%;
+  width: auto;
 }
 
 /*--------------FOOTER---------*/
 footer {
   background-color: #202027;
+  width: 100%;
   height: 10vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  position: sticky;
+  bottom:0;
+  position:fixed;
+
 }

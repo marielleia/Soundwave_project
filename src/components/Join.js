@@ -11,22 +11,20 @@ function Join() {
                     <Form>
                         <Form.Group className="mb-3" controlId="formBasicName">
                             <Form.Label>Name</Form.Label>
-                            <Form.Control type="name" placeholder="Enter name" />
+                            <Form.Control type="name"/>
                         </Form.Group>
 
                         <Form.Group className="mb-3" controlId="formBasicEmail">
                             <Form.Label>Email address</Form.Label>
-                            <Form.Control type="email" placeholder="Enter email" />
-                            <Form.Text className="text-muted">
-                            We'll never share your email with anyone else.
-                            </Form.Text>
+                            <Form.Control type="email"/>
                         </Form.Group>
 
                         <Form.Group className="mb-3" controlId="formBasicPassword">
                             <Form.Label>Password</Form.Label>
-                            <Form.Control type="password" placeholder="Password" />
+                            <Form.Control type="password"/>
                         </Form.Group>
-                        <button>Join Now</button>
+                        <button className="button-join">Join Now</button>
+
                     </Form>
                 </div>
             </section>

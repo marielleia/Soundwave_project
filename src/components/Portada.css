@@ -1,23 +1,25 @@
 .Portada {
     overflow: hidden;
-}
-.imageHero, .homeText{
-    display: flex;
-    margin-top: 10vh;
+    height: 100%;
 }
 
 
 /*------------CIRCLES-----------*/
+
+.circle1, .circle2, .circle3 {
+    border-radius: 50%;
+    opacity: 100%;
+    position: relative;
+    overflow: hidden;
+    
+}
 .circle1 {
     height: 23em;
     width: 23em;
-    border-radius: 50%;
     margin-left: 30em;
     background-color:#bc3a801a;
-    opacity: 100%;
-    position: relative;
     top: 3vh;
-    right: 4vh;
+    right: 3vh;
     z-index: 1;
 }
 
@@ -25,18 +27,16 @@
     background-color: #3457b21a;
     height: 23em;
     width: 23em;
-    border-radius: 50%;
     z-index: 1;
-    position: relative;
-    bottom: 27vh; right: 67vh;
+    bottom: 27vh; 
+    right: 67vh;
 }
 
 .circle3 {
     background-color: #3457b21a;
-    height: 43em;
-    width: 43em;
-    border-radius: 50%;
+    height: 5vh;
+    width: 5vh;
     z-index: 1;
-    position: relative;
-    top: 90vh; left: 67vh;
+    top: 95em; 
+    left: 65em;
 }

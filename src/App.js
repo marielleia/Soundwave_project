@@ -16,8 +16,6 @@ import "@fontsource/poppins";
 
 function App() {
   return (
-    <>
-    <body>
       <main className='App'>
 
         <header>
@@ -50,8 +48,6 @@ function App() {
             
         </footer>
       </main>
-    </body>
-    </>
   );
 }
 

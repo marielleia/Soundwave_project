@@ -6,7 +6,7 @@ import "./Menu.css";
 function Menu() {
   return (
   <nav>
-    <Navbar expand="lg"  bg="dark" variant="dark" sticky="top">
+    <Navbar expand="lg" bg="dark" variant="dark" sticky="top">
       <Container>
         <Navbar.Brand href=".SoundWave"><img className= "logo" alt="soundwave logo" src={Logo}/> SoundWave 
         </Navbar.Brand>
