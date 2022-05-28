@@ -1,3 +1,6 @@
+.Portada {
+    overflow: hidden;
+}
 .imageHero, .homeText{
     display: flex;
     margin-top: 10vh;
@@ -5,12 +8,35 @@
 
 
 /*------------CIRCLES-----------*/
-.circle1, .circle2, .circle3 {
-    height: 100px;
-    width: 100px;
+.circle1 {
+    height: 23em;
+    width: 23em;
     border-radius: 50%;
-    color: chartreuse;
-    display: inline-block;
-    position: absolute;
+    margin-left: 30em;
+    background-color:#bc3a801a;
+    opacity: 100%;
+    position: relative;
+    top: 3vh;
+    right: 4vh;
     z-index: 1;
+}
+
+.circle2{
+    background-color: #3457b21a;
+    height: 23em;
+    width: 23em;
+    border-radius: 50%;
+    z-index: 1;
+    position: relative;
+    bottom: 27vh; right: 67vh;
+}
+
+.circle3 {
+    background-color: #3457b21a;
+    height: 43em;
+    width: 43em;
+    border-radius: 50%;
+    z-index: 1;
+    position: relative;
+    top: 90vh; left: 67vh;
 }

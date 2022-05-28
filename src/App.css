@@ -2,16 +2,18 @@
 margin: 0;
 padding: 0; 
 box-sizing: auto;
+scroll-behavior: smooth;
 }
 
 main {
+  height: 100%;
   font-family: "Poppins";
   background-color: #2F303A;
   display: flex;
   flex-direction: column;
-  scroll-behavior: smooth;
   height: 100%;
   color: whitesmoke;
+  overflow: hidden;
 }
 
 /*------------NAV---------*/
@@ -42,7 +44,6 @@ nav {
 /*-------------DISCOVER--------*/
 
 .Discover {
-  background-color: pink;
   height: 100%;
 
 }
@@ -56,12 +57,11 @@ width: auto;
 
 /*--------------FOOTER---------*/
 footer {
-  background-color: yellow;
-  height: 20%;
+  background-color: #202027;
+  height: 10vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   position: sticky;
-  background-color: inherit;
 }

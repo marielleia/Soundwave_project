@@ -1,16 +1,18 @@
 .contacto {
+    width: 50%;
     display: flex;
     justify-content: flex-start;
-    background-color: crimson;
-    width: 50%;
-    height: 20%;
+    gap: 2vh;
+    margin: 5vh;
 }
 
 .social-media {
-    background-color: blueviolet;
     width: 50%;
     display: flex;
-
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2vh;
+    margin: 5vh;
 }
 
 .footer-button{
@@ -18,7 +20,7 @@
     flex-direction: row;
     border-style: none;
     background-color: transparent;
-    color: aliceblue;
+    color: whitesmoke;
     font-size: medium;
     text-decoration: solid;
 }

@@ -1,6 +1,7 @@
 .join{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 .fun {
     color: rgba(245, 21, 116, 0.4);
