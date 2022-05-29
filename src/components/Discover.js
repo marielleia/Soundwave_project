@@ -6,7 +6,7 @@ import Covers from '../images/covers.jpg';
 
 function Discover() {
     return (
-          <section className="discover">
+          <section id="discover">
               <div className="text-discover">
                 <h1>Discover new music</h1>
                 <div className="icons">

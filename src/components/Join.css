@@ -1,7 +1,6 @@
-.join{
+#join{
     display: grid;
-    grid-template-columns: repeat(auto-fit, 55vh);
-    margin: 5vh;
+    grid-template-columns: repeat(auto-fit, 60vh);
     justify-content: center;
 }
 

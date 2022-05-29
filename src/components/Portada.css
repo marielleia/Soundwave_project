@@ -1,8 +1,16 @@
-.Portada {
-    overflow: hidden;
-    height: 100%;
+#portada {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 60vh);
 }
 
+.imageHero{
+    height: 80vh;
+    width: auto;
+    position: relative;
+    z-index: 2;
+    right: 15vh;
+    bottom: 31vh;
+}
 
 /*------------CIRCLES-----------*/
 
@@ -14,22 +22,23 @@
     
 }
 .circle1 {
-    height: 23em;
-    width: 23em;
-    margin-left: 30em;
     background-color:#bc3a801a;
-    top: 3vh;
-    right: 3vh;
-    z-index: 1;
+    height: 20em;
+    width: 20em;
+    top: 30vh;
+    bottom: 30vh;
+    margin-left: 15vh;
+    z-index: 2;
 }
 
 .circle2{
     background-color: #3457b21a;
-    height: 23em;
-    width: 23em;
+    height: 20em;
+    width: 20em;
     z-index: 1;
-    bottom: 27vh; 
-    right: 67vh;
+    top: 10vh;
+    right: 10vh;
+    margin-left: 15vh;
 }
 
 .circle3 {

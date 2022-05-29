@@ -8,11 +8,11 @@ function Menu() {
   <nav>
     <Navbar expand="lg" bg="dark" variant="dark" sticky="top">
       <Container>
-        <Navbar.Brand href=".SoundWave"><img className= "logo" alt="soundwave logo" src={Logo}/> SoundWave 
+        <Navbar.Brand href="#portada"><img className= "logo" alt="soundwave logo" src={Logo}/> SoundWave 
         </Navbar.Brand>
           <Nav className="nav-link">
-            <Nav.Link href=".discover">Discover</Nav.Link> 
-            <Nav.Link href=".join">Join</Nav.Link>
+            <Nav.Link href="#discover">Discover</Nav.Link> 
+            <Nav.Link href="#join">Join</Nav.Link>
           </Nav>
       </Container>
     </Navbar>

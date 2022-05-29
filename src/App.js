@@ -24,19 +24,19 @@ function App() {
 
         </header>
 
-        <section className='Portada'>
+        <section id= '#portada'>
       
             <Portada/>
 
         </section>
 
-        <section className='Discover'>
+        <section id='discover'>
 
           <Discover/>
 
         </section>
 
-        <section className='Join'>
+        <section id='join'>
 
           <Join/>
 

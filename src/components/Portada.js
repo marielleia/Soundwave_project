@@ -5,7 +5,7 @@ import "./Portada.css"
 
 function Portada() {
     return (
-          <section className="Portada">
+          <section id="portada">
             
               <span className="circle1"></span>
               <span className="circle2"></span>

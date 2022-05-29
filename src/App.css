@@ -5,11 +5,12 @@ scroll-behavior: smooth;
 }
 
 main {
+  height: 100%;
+  width: auto;
   font-family: "Poppins";
   background-color: #2F303A;
   display: flex;
   flex-direction: column;
-  height: 100%;
   color: whitesmoke;
   overflow: hidden;
 }
@@ -23,23 +24,20 @@ nav {
 
 /*---------------MAIN---------*/
 
-.Portada {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+#portada {
   align-items: center;
 }
 
 /*-------------DISCOVER--------*/
 
-.Discover {
+#discover {
   height: 100%;
   width: auto;
 }
 
 /*------------JOIN------------*/
 
-.Join {
+#join {
   height: 100%;
   width: auto;
 }
@@ -55,5 +53,4 @@ footer {
   align-items: center;
   bottom:0;
   position:fixed;
-
 }

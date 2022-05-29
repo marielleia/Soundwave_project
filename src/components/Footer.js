@@ -12,8 +12,8 @@ function Footer() {
           <FooterButton buttonText={"Contact Us"}/>
         </div>
         <div className='social-media'>
-          <img src={Twitter} className="twitter" alt="twitter"/><h6>Twitter</h6>
-          <img src={Facebook} className="facebook" alt="facebook"/><h6>Facebook</h6>
+          <img src={Twitter} className="twitter" alt="twitter"/><FooterButton buttonText={"Twitter"}/>
+          <img src={Facebook} className="facebook" alt="facebook"/><FooterButton buttonText={"Facebook"}/>
         </div>
     </footer>
   );
