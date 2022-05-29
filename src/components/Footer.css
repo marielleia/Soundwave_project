@@ -1,18 +1,16 @@
-.contacto {
+.contacto, .social-media {
     width: 50%;
     display: flex;
-    justify-content: flex-start;
-    gap: 2vh;
+    justify-content: center;
+    align-items: center;
+    gap: 3vh;
     margin: 5vh;
 }
 
-.social-media {
-    width: 50%;
+.twit, .faceb{
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 2vh;
-    margin: 5vh;
+    flex-direction: row;
+    gap: 1.5vh;
 }
 
 .footer-button{
@@ -23,4 +21,20 @@
     color: whitesmoke;
     font-size: medium;
     text-decoration: solid;
+}
+
+/********responsive*********/
+@media screen and (max-width: 420px) {
+    .contacto, .social-media, .twit, .faceb, .about, .contact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-button{
+        font-size: smaller;
+    }
+    .twit, .faceb{
+        max-width: 25%;
+        margin: 3vh;
+    }
 }

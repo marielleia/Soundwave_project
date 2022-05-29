@@ -6,16 +6,20 @@ import Twitter from "../images/twitter.svg";
 
 function Footer() {
   return (
-    <footer>
+    <>
       <div className='contacto'>
-          <FooterButton buttonText={"About"}/>
-          <FooterButton buttonText={"Contact Us"}/>
+          <FooterButton className="about" buttonText={"About Us"}/>
+          <FooterButton className="contact" buttonText={"Contact"}/>
         </div>
-        <div className='social-media'>
-          <img src={Twitter} className="twitter" alt="twitter"/><FooterButton buttonText={"Twitter"}/>
-          <img src={Facebook} className="facebook" alt="facebook"/><FooterButton buttonText={"Facebook"}/>
-        </div>
-    </footer>
+      <div className='social-media'>
+          <div className='twit'>
+            <img src={Twitter} className="twitter" alt="twitter"/><FooterButton buttonText={"Twitter"}/>
+          </div>
+          <div className='faceb'>
+            <img src={Facebook} className="facebook" alt="facebook"/><FooterButton buttonText={"Facebook"}/>
+          </div>
+      </div>
+    </>
   );
 }
 export default Footer;

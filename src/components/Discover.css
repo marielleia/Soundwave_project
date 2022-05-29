@@ -1,21 +1,11 @@
-/********section*******/
-#discover {
-    height: 80vh;
-    background-color: pink;
-    margin: 4vh;
-    justify-content: center;
-}
-
 /*****cajita texto*****/
 .text-discover{
-    background-color: blue;
     height: 40vh;
     width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding: 2vh;
+    margin-left: 5vh;
 }
 
 /*****cajita iconos*****/
@@ -31,31 +21,44 @@
 /******iconos*****/
 .mic, .albums, .more {
     height: 15vh;
-    width: auto;
     display: flex;
     flex-direction: column;
     padding: 2vh;
-    gap: 1vh;
+    gap: 2vh;
     background-color: #202027;
 }
 
 /*****imagenes*****/
 .img1, .img2, .img3 {
     height: 5vh;
-    width: auto;
 }
 
 /*****imagen cover*****/
 .cover{
-    background-color: aqua;
-    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
 .covers{
-    height: 50vh;
-    width: auto;
+    width: 40vh;
+    height: 40vh;
 }
 
+/********responsive*******/
+@media screen and (max-width: 420px){
+    #discover{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2vh;
+    }
+    .text-discover{
+        height: 35vh;        
+        width: 50vh;
+    }
+    .covers{
+        width: 35vh;
+        height: 35vh;
+    }
+}

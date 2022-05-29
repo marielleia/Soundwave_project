@@ -1,3 +1,13 @@
-.sticky-top {
-    position:fixed;
+.navbar>.container {
+height: 10vh;
+gap: 2vh;
+justify-content: space-evenly;
+}
+
+.logo{
+    height: 8vh;
+}
+
+#discover, #join{
+    font-weight: 5vh;
 }

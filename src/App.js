@@ -7,7 +7,6 @@ import Join from "./components/Join";
 import './App.css';
 import './components/Menu.css';
 import './components/Portada.css';
-import './components/ImageHero.css';
 import './components/HomepageText.css';
 import './components/Discover.css';
 import './components/Join.css';
@@ -19,33 +18,23 @@ function App() {
       <main className='App'>
 
         <header>
-
             <Menu/>
-
         </header>
 
-        <section id= '#portada'>
-      
+        <section id= 'portada'>
             <Portada/>
-
         </section>
 
         <section id='discover'>
-
-          <Discover/>
-
+            <Discover/>
         </section>
 
         <section id='join'>
-
-          <Join/>
-
+            <Join/>
         </section>
 
         <footer>
-
             <Footer/>
-            
         </footer>
       </main>
   );

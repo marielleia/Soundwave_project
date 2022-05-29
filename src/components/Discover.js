@@ -6,7 +6,7 @@ import Covers from '../images/covers.jpg';
 
 function Discover() {
     return (
-          <section id="discover">
+          <>
               <div className="text-discover">
                 <h1>Discover new music</h1>
                 <div className="icons">
@@ -29,7 +29,7 @@ function Discover() {
               <div className="cover">
                 <img src = {Covers} className= "covers" alt="covers" width={300} height={300}/>
               </div>
-          </section>
+          </>
     );
   }
   

@@ -1,13 +1,14 @@
 .HomepageText{
     width: 70vh;
     height: 60vh;
+    gap: 2vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.button-joinp{
-    width: 15vh;
+.button-joinow{
+    width: 20vh;
     font-size: 2vh;
     height: auto;
     padding: 1vh;

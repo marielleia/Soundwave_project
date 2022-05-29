@@ -6,6 +6,11 @@
     right: 45vh;
     top: 5vh;
 }
+
+.chica {
+    height: 80vh;
+}
+
 /*------------CIRCLES-----------*/
 
 .circle1, .circle2, .circle3 {
