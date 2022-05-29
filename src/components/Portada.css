@@ -1,17 +1,11 @@
-#portada {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 60vh);
-}
-
-.imageHero{
+.ImageHero{
     height: 80vh;
     width: auto;
     position: relative;
     z-index: 2;
-    right: 15vh;
-    bottom: 31vh;
+    right: 45vh;
+    top: 5vh;
 }
-
 /*------------CIRCLES-----------*/
 
 .circle1, .circle2, .circle3 {
@@ -25,9 +19,9 @@
     background-color:#bc3a801a;
     height: 20em;
     width: 20em;
-    top: 30vh;
-    bottom: 30vh;
-    margin-left: 15vh;
+    top: 20vh;
+    bottom: 20vh;
+    margin-left: 20vh;
     z-index: 2;
 }
 
@@ -36,16 +30,26 @@
     height: 20em;
     width: 20em;
     z-index: 1;
-    top: 10vh;
-    right: 10vh;
+    bottom: 10vh;
+    left: 20vh;
     margin-left: 15vh;
 }
 
 .circle3 {
     background-color: #3457b21a;
-    height: 5vh;
-    width: 5vh;
+    height: 40em;
+    width: 40em;
+    top: 40vh;
+    left: 100vh;
     z-index: 1;
-    top: 95em; 
-    left: 65em;
 }
+
+/**********RESPONSIVE********/
+
+@media screen and (max-width: 420px) {
+   .ImageHero img{
+        display: none;}
+    .HomepageText{
+        display: flex;
+        align-items: center;
+    }}

@@ -3,7 +3,7 @@ import Form from 'react-bootstrap/Form';
 
 function Join() {
     return (
-          <section id="join">
+        <>
                 <div className="text">
                     <h1 className="jointhe">Join the <span className="fun">fun.</span></h1>
                 </div>
@@ -27,7 +27,7 @@ function Join() {
 
                     </Form>
                 </div>
-            </section>
+                </>
     );
   }
   

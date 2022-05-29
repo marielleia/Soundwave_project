@@ -11,13 +11,9 @@ function Portada() {
               <span className="circle2"></span>
               <span className="circle3"></span>
 
-              <div className="imageHero">
-                <ImageHero/>
-              </div>
+              <ImageHero/>
 
-              <div className="homeText">
-                <HomepageText/>
-              </div>
+              <HomepageText/>
 
           </section>
     );

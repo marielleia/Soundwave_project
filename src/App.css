@@ -5,8 +5,6 @@ scroll-behavior: smooth;
 }
 
 main {
-  height: 100%;
-  width: auto;
   font-family: "Poppins";
   background-color: #2F303A;
   display: flex;
@@ -24,23 +22,29 @@ nav {
 
 /*---------------MAIN---------*/
 
-#portada {
-  align-items: center;
+#portada { 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 30vh);
+    overflow: hidden;
+    align-items: center;
 }
 
 /*-------------DISCOVER--------*/
 
 #discover {
-  height: 100%;
-  width: auto;
+display: flex;
+flex-direction: row;
 }
+
+@media screen and (max-width: 400){
+  #discover{
+      display: flex;
+      flex-direction: column;
+  }}
 
 /*------------JOIN------------*/
 
-#join {
-  height: 100%;
-  width: auto;
-}
+
 
 /*--------------FOOTER---------*/
 footer {

@@ -1,6 +1,18 @@
-.button-join{
-    padding: 2vh;
-    border-radius: 1vh none;
+.HomepageText{
+    width: 70vh;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button-joinp{
+    width: 15vh;
+    font-size: 2vh;
+    height: auto;
+    padding: 1vh;
+    border-radius: 1vh;
+    border:none;
     background-color: #1762A7;
     color: whitesmoke;
 }

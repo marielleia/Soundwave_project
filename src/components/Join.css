@@ -1,28 +1,68 @@
-#join{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 60vh);
-    justify-content: center;
+/*****SECTION*****/
+#join {
+    height: 80vh;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5vh;
+    margin: 5vh;
 }
 
+/*****JOIN THE FUN.*****/
 .text {
-    display: flex;
     justify-content: center;
-    text-align: center;
+    align-items: center;
+}
+
+.text h1{
+    font-size: vh;
+    font-weight: bolder;
 }
 
 .fun {
     color: rgba(243, 11, 139, 0.904);
 }
 
+/******FORM*****/
 .formulario{
     background-color: #202027;
-    width: 60vh;
-    padding: 5vh;
+    padding: 3vh;
     overflow: hidden;
+    border-radius: 2vh;
 }
 
 .button-join {
-    background-color: blue;
+    color: whitesmoke;
+    background-color: #1762A7;
     width: 50vh;
-    border-radius: 2vh;
+    border-radius: 1.5vh;
+}
+
+/***********RESPONSIVE*************/
+
+@media screen and (max-width: 420px){
+    #join{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 6vh;
+    }
+    .formulario{
+        width: 40vh;
+    }
+
+    .button-join{
+        width: 34vh;
+        margin-top: 2vh;
+    }
+    .text{
+        height: 15vh;
+        padding-top: 3vh;
+        margin-bottom: 5vh;
+    }
+    .text h1{
+        font-size: 8vh;
+    }
 }
