@@ -1,11 +1,14 @@
 /*****JOIN THE FUN.*****/
-.text {
+.text-form{
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 5vh;
 }
 
-.text h1{
-    font-size: 10vh;
+.jointhe, .fun{
+    font-size: 8vh;
 }
 
 .fun {
@@ -17,7 +20,6 @@
 .formulario{
     background-color: #202027;
     padding: 3vh;
-    overflow: hidden;
     border-radius: 2vh;
 }
 
@@ -30,31 +32,40 @@
     border-radius: 1.5vh;
 }
 
+
 /*******circulos******/
 .circle4, .circle5{
+    position: absolute;
     border-radius: 50%;
     opacity: 100%;
-    position: relative;
-    overflow: hidden;
-    background-color: aliceblue;
+    z-index: -2;
 }
-/*
+
 .circle4 {
     background-color:#bc3a801a;
+    height: 25em;
+    width: 25em;
+    right: 120vh;
+    top: 40vh;
 }
 
 .circle5 {
     background-color: #3457b21a;
-}*/
+    height: 20em;
+    width: 20em;
+    left: 35vh;
+    bottom: 45vh;
+}
 
 /***********RESPONSIVE*************/
 
 @media screen and (max-width: 420px){
-    #join{
+    #join, .text-form{
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        margin: 6vh;
+        padding-top: 4vh;
+        margin: 3vh;
     }
     .formulario{
         width: 40vh;
@@ -65,11 +76,25 @@
         margin-top: 2vh;
     }
     .text{
-        height: 15vh;
-        padding-top: 3vh;
-        margin-bottom: 5vh;
+        height: 23vh;
+        padding-top: 5vh;
+        font-style: bolder;
+        justify-content: center;
     }
     .text h1{
-        font-size: 8vh;
+        font-size: 7vh;
+    }
+    .circle4 {
+        background-color:#bc3a801a;
+        height: 5em;
+        width: 5em;
+    }
+    
+    .circle5 {
+        background-color: #3457b21a;
+        height: 5em;
+        width: 5em;
+        left: 90vh;
+        bottom: 45vh;
     }
 }

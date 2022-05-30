@@ -5,9 +5,10 @@ import Button from 'react-bootstrap/Button';
 
 function Join() {
     return (
-        <>
+        <section id='join'>
                 <span className="circle4"></span>
                 <span className="circle5"></span>
+                <div className="text-form">
                 <div className="text">
                     <h1 className="jointhe">Join the <span className="fun">fun.</span></h1>
                 </div>
@@ -29,8 +30,9 @@ function Join() {
                         </Form.Group>
                         <Button href="#join" className="button-join">Join Now</Button>
                     </Form>
+                    </div>
                 </div>
-                </>
+                </section>
     );
   }
   

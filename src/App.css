@@ -7,6 +7,7 @@ scroll-behavior: smooth;
 main {
   height: 100%;
   font-family: "Poppins";
+  font-size: 1.2rem;
   background-color: #2F303A;
   display: flex;
   flex-direction: column;
@@ -24,19 +25,14 @@ nav {
 }
 
 /*---------------MAIN---------*/
-
 #portada { 
-  height: 100vh;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 30vh);
-  overflow: hidden;
-  align-items: center;
+  height: 120vh;
+  width: 100%;
 }
 
 /*-------------DISCOVER--------*/
 
 #discover {
-  background-color: cornflowerblue;
   height: 100vh;
   display: flex;
   flex-direction: row;
@@ -47,13 +43,14 @@ nav {
 /*------------JOIN------------*/
 
 #join {
-  background-color: darkgoldenrod;
     height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    position: relative;
     gap: 5vh;
+    margin: 5vh;
     z-index: 3;
 }
 

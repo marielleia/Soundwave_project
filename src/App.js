@@ -21,21 +21,18 @@ function App() {
             <Menu/>
         </header>
 
-        <section id= 'portada'>
+
             <Portada/>
-        </section>
 
-        <section id='discover'>
+
             <Discover/>
-        </section>
 
-        <section id='join'>
-            <Join/>
-        </section>
-
+        
+            <Join/>      
         <footer>
             <Footer/>
         </footer>
+
       </main>
   );
 }

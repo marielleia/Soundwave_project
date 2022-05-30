@@ -1,14 +1,25 @@
-.ImageHero{
-    height: 80vh;
-    width: auto;
-    position: relative;
-    z-index: 2;
-    right: 45vh;
-    top: 5vh;
+.main-portada{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.chica {
+.ImageHero{
+    display: flex;
+    width: 50%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.ImageHero img {
     height: 80vh;
+    padding-top: 10vh;
+    top: 10vh;
+    left: 8vh;
+    display: flex;
+    position: relative;
 }
 
 /*------------CIRCLES-----------*/
@@ -16,45 +27,76 @@
 .circle1, .circle2, .circle3 {
     border-radius: 50%;
     opacity: 100%;
-    position: relative;
+    position: absolute;
     overflow: hidden;
+    z-index: 1;
     
 }
-.circle1 {
+.circle1{
     background-color:#bc3a801a;
     height: 20em;
     width: 20em;
-    top: 20vh;
-    bottom: 20vh;
-    margin-left: 20vh;
-    z-index: 2;
+    top: 35vh;
+    bottom: 15vh;
 }
 
 .circle2{
     background-color: #3457b21a;
     height: 20em;
     width: 20em;
-    z-index: 1;
-    bottom: 10vh;
-    left: 20vh;
-    margin-left: 15vh;
+    bottom: 45vh;
+    left: 45vh;
 }
 
 .circle3 {
     background-color: #3457b21a;
-    height: 40em;
-    width: 40em;
-    top: 40vh;
-    left: 100vh;
-    z-index: 1;
+    height: 35em;
+    width: 35em;
+    top: 35vh;
+    left: 170vh;
 }
 
 /**********RESPONSIVE********/
-
 @media screen and (max-width: 420px) {
-   .ImageHero img{
-        display: none;}
+    .main-portada{
+        display: flex;
+        justify-content: center;
+    }
+    .HomepageText{
+        margin-top: 5vh;
+        padding: 3vh;
+    }
+    .HomepageText h1{
+        font-size: 5vh;
+    }
+    .HomepageText h6{
+        font-size: 2.5vh;
+    }
+    .ImageHero, .ImageHero img {
+        display: none;
+    }
     .HomepageText{
         display: flex;
-        align-items: center;
-    }}
+        width: 45vh;
+        height: 80vh;
+    }
+    .circle1{
+        width: 6em;
+        height: 6em;
+        top: 83vh;
+        left: 3vh;
+    }
+    .circle2{
+        width: 7em;
+        height: 7em;
+        bottom: 70vh;
+        left: 15vh;
+    }
+    .circle3{
+        width: 8em;
+        height: 8em;
+        top: 83vh;
+        left: 35vh;
+        overflow: hidden;
+    }
+}

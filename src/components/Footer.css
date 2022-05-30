@@ -3,14 +3,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 3vh;
-    margin: 5vh;
+    gap: 2vh;
+    margin: 1.5vh;
 }
 
 .twit, .faceb{
     display: flex;
     flex-direction: row;
-    gap: 1.5vh;
+    gap: 1vh;
 }
 
 .footer-button{
@@ -35,6 +35,6 @@
     }
     .twit, .faceb{
         max-width: 25%;
-        margin: 3vh;
+        margin: 2vh;
     }
 }

@@ -1,13 +1,30 @@
-.navbar>.container {
-height: 10vh;
-gap: 2vh;
-justify-content: space-evenly;
+.navbar>.container{
+    display: flex;
+    flex-direction: row;
+    gap: 2vh;
+}
+
+.div.nav-link.navbar-nav{
+    display: flex;
+    flex-direction: row;
 }
 
 .logo{
     height: 8vh;
-}
+    padding: 1vh;}
 
 #discover, #join{
-    font-weight: 5vh;
+    gap: 5vh;
+    font-size: larger;
+}
+
+/******responsive****/
+@media screen and (max-width: 420px) {
+ .navbar>.container{
+     margin-left: 1vh;
+    }
+ .div.nav-link.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    }
 }
