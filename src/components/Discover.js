@@ -35,7 +35,7 @@ function Discover() {
               <footer>
                   <Footer/>
               </footer>
-              </>
+      </>
     );
   }
   

@@ -26,11 +26,14 @@
 
 /******responsive****/
 @media screen and (max-width: 420px) {
+    .div.container{
+        
+    }
     .navbar>.container{
         margin-left: 1vh;
     }
- .div.nav-link.navbar-nav {
-    display: flex;
-    flex-direction: row;
+    .div.nav-link.navbar-nav {
+        display: flex;
+        flex-direction: row;
     }
 }

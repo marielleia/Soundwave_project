@@ -27,6 +27,8 @@ nav {
 #portada { 
   height: 112vh;
   width: 100%;
+  z-index: 4;
+  overflow: hidden;
 }
 
 /*-------------DISCOVER--------*/
@@ -37,6 +39,9 @@ nav {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  padding-top: 15vh;
+  overflow: hidden;
+  z-index: 4;
 }
 
 /*------------JOIN------------*/
@@ -49,8 +54,9 @@ nav {
     align-items: center;
     position: relative;
     gap: 5vh;
-    margin: 5vh;
-    z-index: 3;
+    margin-top: 2vh;
+    z-index: 4;
+    overflow: hidden;
 }
 
 /*--------------FOOTER---------*/

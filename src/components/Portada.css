@@ -7,7 +7,6 @@
 }
 
 .ImageHero{
-    display: flex;
     width: 50%;
     z-index: 1;
     display: flex;
@@ -18,8 +17,7 @@
     height: 80vh;
     padding-top: 10vh;
     top: 10vh;
-    left: 8vh;
-    display: flex;
+    left: 15vh;
     position: relative;
 }
 
@@ -51,40 +49,28 @@
 
 .circle3 {
     background-color: #3457b21a;
-    height: 35em;
-    width: 35em;
-    top: 35vh;
+    height: 30em;
+    width: 30em;
+    top: 30vh;
     left: 170vh;
 }
 
 /**********RESPONSIVE********/
 @media screen and (max-width: 420px) {
-    .main-portada{
-        display: flex;
-        justify-content: center;
-    }
-    .HomepageText{
-        margin-top: 5vh;
-        padding: 3vh;
-    }
-    .HomepageText h1{
-        font-size: 5vh;
-    }
-    .HomepageText h6{
-        font-size: 2.5vh;
-    }
-    .ImageHero, .ImageHero img {
-        display: none;
-    }
     .HomepageText{
         display: flex;
         width: 45vh;
         height: 80vh;
+        padding: 8vh;
     }
+    .ImageHero, .ImageHero img {
+        display: none;
+    }
+
     .circle1{
         width: 6em;
         height: 6em;
-        top: 83vh;
+        top: 55vh;
         left: 3vh;
     }
     .circle2{
