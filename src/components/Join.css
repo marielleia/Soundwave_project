@@ -8,7 +8,7 @@
 }
 
 .jointhe, .fun{
-    font-size: 8vh;
+    font-size: 10vh;
 }
 
 .fun {
@@ -23,15 +23,9 @@
     border-radius: 2vh;
 }
 
-#formBasicName.form-control{
+#formBasicName.form-control, #formBasicEmail.form-control, #formBasicPassword.form-control{
     background-color: #202027;
-}
-
-#formBasicEmail.form-control{
-    background-color: #202027;
-}
-#formBasicPassword.form-control{
-    background-color: #202027;
+    color: whitesmoke;
 }
 
 .button-join {
@@ -42,7 +36,6 @@
     padding: 1vh;
     border-radius: 1.5vh;
 }
-
 
 /*******circulos******/
 .circle4, .circle5{
@@ -74,7 +67,6 @@
     #join, .text-form{
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
         padding-top: 4vh;
         margin: 3vh;
     }
@@ -100,7 +92,6 @@
         height: 5em;
         width: 5em;
     }
-    
     .circle5 {
         background-color: #3457b21a;
         height: 5em;

@@ -1,35 +1,36 @@
 .navbar>.container{
     display: flex;
     flex-direction: row;
-    gap: 2vh;
 }
 
-.div.nav-link.navbar-nav{
+/**container discover join ***/
+.nav-link.navbar-nav{
     display: flex;
     flex-direction: row;
+    gap: 2vh;
+    font-size: smaller;
+    margin-right: 15vh;
+}
+/***container logo soundwave***/
+.navbar.navbar-brand{
+    gap:0.5vh;
+    justify-content: space-evenly;
+    font-size: smaller;
+    margin-left: 15vh;
 }
 
 .logo{
     height: 8vh;
-    padding: 1vh;}
-
-#discover, #join{
-    gap: 5vh;
-    font-size: larger;
-}
-
-#discover:hover, #join:hover{
-    color: #adadad;
+    padding: 1vh;
 }
 
 /******responsive****/
 @media screen and (max-width: 420px) {
- .navbar>.container{
-     margin-left: 1vh;
+    .navbar>.container{
+        margin-left: 1vh;
     }
  .div.nav-link.navbar-nav {
     display: flex;
     flex-direction: row;
-    margin-right: 10vh;
     }
 }

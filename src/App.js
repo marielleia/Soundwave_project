@@ -23,9 +23,6 @@ function App() {
             <Portada/>
             <Discover/>
             <Join/>      
-        <footer>
-            <Footer/>
-        </footer>
 
       </main>
   );

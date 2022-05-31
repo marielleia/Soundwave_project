@@ -19,21 +19,20 @@ main {
 nav {
   height: 12vh;
   width: 100%;
-  background-color: transparent;
   position: fixed;
   z-index: 9;
 }
 
 /*---------------MAIN---------*/
 #portada { 
-  height: 120vh;
+  height: 112vh;
   width: 100%;
 }
 
 /*-------------DISCOVER--------*/
 
 #discover {
-  height: 100vh;
+  height: 85vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -43,7 +42,7 @@ nav {
 /*------------JOIN------------*/
 
 #join {
-    height: 100vh;
+    height: 80vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -62,6 +61,5 @@ footer {
   display: flex;
   align-content: center;
   bottom:0;
-  position:fixed;
   z-index: 9;
 }
