@@ -23,6 +23,17 @@
     border-radius: 2vh;
 }
 
+#formBasicName.form-control{
+    background-color: #202027;
+}
+
+#formBasicEmail.form-control{
+    background-color: #202027;
+}
+#formBasicPassword.form-control{
+    background-color: #202027;
+}
+
 .button-join {
     color: whitesmoke;
     background-color: #1762A7;

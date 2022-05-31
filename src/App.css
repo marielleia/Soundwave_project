@@ -19,7 +19,7 @@ main {
 nav {
   height: 12vh;
   width: 100%;
-  background-color: #202027;
+  background-color: transparent;
   position: fixed;
   z-index: 9;
 }

@@ -18,6 +18,10 @@
     font-size: larger;
 }
 
+#discover:hover, #join:hover{
+    color: #adadad;
+}
+
 /******responsive****/
 @media screen and (max-width: 420px) {
  .navbar>.container{
@@ -26,5 +30,6 @@
  .div.nav-link.navbar-nav {
     display: flex;
     flex-direction: row;
+    margin-right: 10vh;
     }
 }

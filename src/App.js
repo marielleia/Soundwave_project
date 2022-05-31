@@ -20,14 +20,8 @@ function App() {
         <header>
             <Menu/>
         </header>
-
-
             <Portada/>
-
-
             <Discover/>
-
-        
             <Join/>      
         <footer>
             <Footer/>
