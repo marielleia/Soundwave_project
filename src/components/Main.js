@@ -1,15 +1,15 @@
 import React from "react";
-import ImageHero from "../components/ImageHero.js";
-import HomepageText from "../components/HomepageText.js";
-import "./Portada.css"
+import Landingpagegirl from "../images/landing-page-girl.png";
+import HomepageText from "./HomepageText.js";
+import "./Main.css";
 
-function Portada() {
+function Main() {
     return (
       <section id= 'portada'>
               <span className="circle1"></span>
               <span className="circle2"></span>
               <div className="main-portada">
-                <ImageHero/>
+                <img src={Landingpagegirl} className= "chica" alt="landing-page-girl"/>
                 <HomepageText/>
               </div>
               <span className="circle3"></span>
@@ -17,4 +17,4 @@ function Portada() {
     );
   }
   
-  export default Portada;
+  export default Main;

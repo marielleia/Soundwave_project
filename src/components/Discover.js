@@ -3,9 +3,11 @@ import Microphone from '../images/microphone.svg';
 import Albums from '../images/albums.svg';
 import More from '../images/more.svg';
 import Covers from '../images/covers.jpg';
+import Footer from "./Footer";
 
 function Discover() {
-    return (
+  return (
+      <>
           <section id='discover'>
               <div className="text-discover">
                 <h1>Discover new music</h1>
@@ -27,9 +29,13 @@ function Discover() {
               </div>
 
               <div className="cover">
-                <img src = {Covers} className= "covers" alt="covers" width={300} height={300}/>
+                <img src = {Covers} className= "covers" alt="covers"/>
               </div>
-              </section>
+          </section>
+              <footer>
+                  <Footer/>
+              </footer>
+      </>
     );
   }
   

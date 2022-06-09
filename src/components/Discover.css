@@ -1,11 +1,9 @@
 /*****cajita texto*****/
 .text-discover{
-    height: 40vh;
-    width: 50%;
     display: flex;
     flex-direction: column;
+    width: 75vh;
     padding: 2vh;
-    margin-left: 5vh;
 }
 
 /*****cajita iconos*****/
@@ -35,30 +33,32 @@ height: 5vh;
 
 /*****imagen cover*****/
 .cover{
-    display: flex;
-    justify-content: center;
     align-items: center;
-
 }
 .covers{
     width: 40vh;
-    height: 40vh;
 }
 
 /********responsive*******/
 @media screen and (max-width: 420px){
     #discover{
+        height: 100vh;
+        width: 50vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
         gap: 2vh;
     }
+
     .text-discover{
         height: 35vh;        
-        width: 50vh;
+        width: 40vh;
+    }
+    .cover{
+        display: flex;
+        width: 40vh;
     }
     .covers{
         width: 35vh;
-        height: 35vh;
     }
 }

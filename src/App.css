@@ -12,46 +12,48 @@ main {
   display: flex;
   flex-direction: column;
   color: whitesmoke;
-  overflow: hidden;
 }
+
 
 /*------------NAV---------*/
 nav {
   height: 12vh;
   width: 100%;
-  background-color: #202027;
   position: fixed;
   z-index: 9;
 }
 
 /*---------------MAIN---------*/
-#portada { 
-  height: 120vh;
-  width: 100%;
-}
+
 
 /*-------------DISCOVER--------*/
 
-#discover {
-  height: 100vh;
+#portada, #discover, #join {
+  width: 100%;
+  overflow: hidden;
+  z-index: 4;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+#portada { 
+  height: 112vh;
+}
+
+#discover {
+  height: 90vh;
+  padding-top: 10vh;
 }
 
 /*------------JOIN------------*/
 
 #join {
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+    height: 85vh;
     gap: 5vh;
-    margin: 5vh;
-    z-index: 3;
+    margin-top: 2vh;
 }
 
 /*--------------FOOTER---------*/
@@ -62,6 +64,5 @@ footer {
   display: flex;
   align-content: center;
   bottom:0;
-  position:fixed;
   z-index: 9;
 }
