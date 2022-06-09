@@ -12,8 +12,8 @@ main {
   display: flex;
   flex-direction: column;
   color: whitesmoke;
-  overflow: hidden;
 }
+
 
 /*------------NAV---------*/
 nav {
@@ -24,39 +24,36 @@ nav {
 }
 
 /*---------------MAIN---------*/
-#portada { 
-  height: 112vh;
-  width: 100%;
-  z-index: 4;
-  overflow: hidden;
-}
+
 
 /*-------------DISCOVER--------*/
 
-#discover {
-  height: 85vh;
+#portada, #discover, #join {
+  width: 100%;
+  overflow: hidden;
+  z-index: 4;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding-top: 15vh;
-  overflow: hidden;
-  z-index: 4;
+  position: relative;
+}
+
+#portada { 
+  height: 112vh;
+}
+
+#discover {
+  height: 90vh;
+  padding-top: 10vh;
 }
 
 /*------------JOIN------------*/
 
 #join {
-    height: 80vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+    height: 85vh;
     gap: 5vh;
     margin-top: 2vh;
-    z-index: 4;
-    overflow: hidden;
 }
 
 /*--------------FOOTER---------*/

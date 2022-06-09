@@ -29,7 +29,7 @@ function Discover() {
               </div>
 
               <div className="cover">
-                <img src = {Covers} className= "covers" alt="covers" width={300} height={300}/>
+                <img src = {Covers} className= "covers" alt="covers"/>
               </div>
           </section>
               <footer>

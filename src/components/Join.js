@@ -12,7 +12,7 @@ function Join() {
                 <span className="circle5"></span>
                 <div className="text-form">
                     <div className="text">
-                        <h1 className="jointhe">Join the <span className="fun">fun.</span></h1>
+                        <h1 className="jointhe">Join the</h1> <h1 className="fun">fun.</h1>
                     </div>
                     <div className="formulario">
                         <Form>

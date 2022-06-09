@@ -1,19 +1,18 @@
 .HomepageText{
-    height: 100%;
-    width: 50%;
     gap: 2vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    z-index: 2;
 }
 
 .button-joinow{
     width: 20vh;
-    font-size: 2vh;
     height: auto;
-    padding: 1vh;
-    border-radius: 1vh;
-    border:none;
     background-color: #1762A7;
     color: whitesmoke;
+    font-size: 2vh;
+    border-radius: 1vh;
+    border:none;
+    padding: 1vh;
 }

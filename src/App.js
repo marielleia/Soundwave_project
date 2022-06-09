@@ -1,12 +1,11 @@
 import React from "react";
 import Menu from "./components/Menu";
-import Portada from "./components/Portada";
-import Footer from "./components/Footer";
+import Main from "./components/Main.js";
 import Discover from "./components/Discover";
 import Join from "./components/Join";
 import './App.css';
 import './components/Menu.css';
-import './components/Portada.css';
+import './components/Main.css';
 import './components/HomepageText.css';
 import './components/Discover.css';
 import './components/Join.css';
@@ -16,14 +15,10 @@ import "@fontsource/poppins";
 function App() {
   return (
       <main className='App'>
-
-        <header>
             <Menu/>
-        </header>
-            <Portada/>
+            <Main/>
             <Discover/>
             <Join/>      
-
       </main>
   );
 }

@@ -1,6 +1,11 @@
+.navbar{
+    align-items: center;
+}
 .navbar>.container{
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
 }
 
 /**container discover join ***/
@@ -22,18 +27,4 @@
 .logo{
     height: 8vh;
     padding: 1vh;
-}
-
-/******responsive****/
-@media screen and (max-width: 420px) {
-    .div.container{
-        
-    }
-    .navbar>.container{
-        margin-left: 1vh;
-    }
-    .div.nav-link.navbar-nav {
-        display: flex;
-        flex-direction: row;
-    }
 }

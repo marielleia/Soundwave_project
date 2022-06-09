@@ -1,23 +1,16 @@
 .main-portada{
     height: 100vh;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-top: 12vh;
 }
 
-.ImageHero{
-    width: 50%;
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-}
-
-.ImageHero img {
+.main-portada>img {
     height: 80vh;
-    padding-top: 10vh;
     top: 10vh;
-    left: 15vh;
+    right: 5vh;
     position: relative;
 }
 
@@ -28,15 +21,15 @@
     opacity: 100%;
     position: absolute;
     overflow: hidden;
-    z-index: 1;
+    z-index: -1;
     
 }
 .circle1{
     background-color:#bc3a801a;
     height: 20em;
     width: 20em;
-    top: 35vh;
-    bottom: 15vh;
+    top: 50vh;
+    left: 7vh;
 }
 
 .circle2{
@@ -56,6 +49,11 @@
 }
 
 /**********RESPONSIVE********/
+@media screen and (max-width: 890px) {
+    .main-portada>img {
+        display: none;
+    }
+}
 @media screen and (max-width: 420px) {
     .HomepageText{
         display: flex;
@@ -63,7 +61,7 @@
         height: 80vh;
         padding: 8vh;
     }
-    .ImageHero, .ImageHero img {
+    .main-portada>img {
         display: none;
     }
 

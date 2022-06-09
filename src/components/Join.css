@@ -65,28 +65,36 @@
 /***********RESPONSIVE*************/
 
 @media screen and (max-width: 420px){
-    #join, .text-form{
+    #join{
+        height: 80vh;
+        padding-top: 4vh;
+    }
+    .text-form{
         display: flex;
         flex-direction: column;
-        padding-top: 4vh;
-        margin: 3vh;
+        padding-bottom: 5vh;
     }
     .formulario{
+        height: 50vh;
         width: 40vh;
     }
-
+    
     .button-join{
         width: 34vh;
         margin-top: 2vh;
     }
     .text{
+        width: 55vh;
         height: 23vh;
-        padding-top: 5vh;
+        padding-top: 10vh;
         font-style: bolder;
         justify-content: center;
+        margin-bottom: 5vh;
+        margin-left: 13vh; 
     }
     .text h1{
-        font-size: 7vh;
+        font-size: 8vh;
+        font-weight: bolder;
     }
     .circle4 {
         background-color:#bc3a801a;
